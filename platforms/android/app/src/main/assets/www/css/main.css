@@ -1,0 +1,76 @@
+html, body {
+    background: #5E1742;
+}
+
+
+.page {
+    display: none;
+    padding: 1rem;
+}
+
+.active {
+
+    display: block;
+}
+.header{
+    background-color: #C9463D;
+}
+.body{
+    text-align: center;
+}
+.outputList{
+    font-size:2rem;
+}
+li{
+    cursor: pointer;
+}
+#backButton{
+    text-align: left;
+}
+#search-input{
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0 1.3rem;
+    width: 20rem;
+    height: 2.4rem;
+}
+#search-input:hover {
+    transform: scale(1.1);
+}
+
+#addButton{
+    text-align: right;
+}
+.zmdi.zmdi-plus{
+    font-size: 3rem;
+    color:white;
+}
+.zmdi.zmdi-long-arrow-return{
+  font-size: 3rem;
+    color:white;   
+}
+.star{
+    color: goldenrod;
+    font-size: 1.7rem;
+    padding: 0 0.2rem;
+}
+
+.star::before {
+    content: '\2606';
+    cursor: pointer;
+}
+
+.star.rated::before {
+    content: '\2605';
+   
+}
+#searchButtonDiv{
+    display: flex;
+    cursor: pointer;
+    width:6rem;
+/*    border: solid 2px #CAAE62;*/
+    background-color: #FFC243;
+    border-radius: 12px;
+    
+}
+

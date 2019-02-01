@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reviewr</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="page active" id="home">
+        <div class="header">
+            <h1>Home</h1>
+        </div>
+        <input type="text" id="search-input" placeholder="search" />
+
+        <div id="searchButtonDiv">
+
+            <img id="search-button" alt="Search" title="Search" data-src="img/magnifying-glass.svg" class="iconic iconic-md" />
+            <p> Search</p>
+        </div>
+
+        <div id="insetList">
+
+
+        </div>
+
+        <div id="addButton">
+            <i class="zmdi zmdi-plus"></i>
+
+            <!--        <img id="addIcon" alt="Add" title="AddIcon" data-src="svg/icons8-plus(1).svg" />-->
+
+
+        </div>
+    </div>
+
+
+    <div class="page" id="details">
+        <h1>Details</h1>
+
+        <div id="backButton">
+            <i class="zmdi zmdi-long-arrow-return"></i>
+        </div>
+    </div>
+
+
+    <div class="page" id="add">
+        <div class="header">
+            <h1>Add</h1>
+        </div>
+        <div class="body">
+            <div id="backButton">
+                <i class="zmdi zmdi-long-arrow-return"></i>
+            </div>
+            <div class="imgSection">
+                <p><img src="img/camera-reviewr.png" alt="image" id="photo" /></p>
+                <p><button id="btn">Take Picture</button></p>
+                <p id="msg"></p>
+                <input type="text" placeholder=" commments" id="commments" />
+
+            </div>
+            <div id="rating" class="stars" data-rating="3">
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+            </div>
+        </div>
+        <div class="bottomButtons">
+            <button id="cancelButton">Cancel</button>
+            <button id="saveButton">Save</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/iconic.min.js"></script>
+</body>
+<html>
